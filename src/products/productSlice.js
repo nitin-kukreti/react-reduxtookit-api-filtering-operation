@@ -5,6 +5,7 @@ import axios from "axios";
 export const fetchProducts=createAsyncThunk("product/getData",async()=>{
   return await axios.get("https://fakestoreapi.com/products")
 })
+// this is initial state
 const initialState={
     loading:false,
     error:'',
