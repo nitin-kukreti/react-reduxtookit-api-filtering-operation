@@ -13,6 +13,7 @@ const initialState={
     queryProduct:[],
     
 }
+// this is product slice
 const productSlice=createSlice(
     {
         name:'product',
